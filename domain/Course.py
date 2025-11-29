@@ -51,7 +51,6 @@ class Course:
         table = ""
         table += header + "\n"
         table+=50 * "-" + "\n"
-        #table += list_of_courses[0].__get_class_fields_as_collumns()
         for course in list_of_courses:
             table+=course.__get_object_field_values()
             table+=50 * "-" + "\n"
